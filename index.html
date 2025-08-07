@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Live Emotion Detector</h1>
+    <div>
+        <img src="{{ url_for('video_feed') }}" width="720" height="560">
+    </div>
+</body>
+</html>
